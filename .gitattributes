@@ -1,4 +1,3 @@
-# Forçar GitHub a identificar SQL e ignorar notebooks
+*.sql linguist-detectable=true
 *.sql linguist-language=SQL
-*.ipynb linguist-detectable=false
 
