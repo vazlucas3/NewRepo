@@ -61,3 +61,7 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+# Forçar GitHub a identificar SQL e ignorar notebooks
+*.sql linguist-language=SQL
+*.ipynb linguist-detectable=false
+
